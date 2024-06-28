@@ -19,9 +19,9 @@ pip install -e .
 ```
 
 You'll need to also:
-Install blast+, add to path
-Install clustalW, add to path
-Follow the instructions from https://github.com/Moldia/multi_padlock_design to download and setup refseq mouse and human mRNA sequences from ftp.ncbi.nlm.nih.gov (run probedesign.py to perform initial setup)
++ Install blast+, add to path
++ Install clustalW, add to path
++ Follow the instructions from https://github.com/Moldia/multi_padlock_design to download and setup refseq mouse / human mRNA sequences from ftp.ncbi.nlm.nih.gov (run probedesign.py to perform initial setup)
 
 To test your padlocks, provide a .csv file with the column format:
 ["target", "gene_name", "padlock_name"]
